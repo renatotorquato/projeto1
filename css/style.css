@@ -1,0 +1,23 @@
+h2 {
+    color: brown;
+}
+
+body {
+    background: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background: blueviolet;
+    color: white;
+}
+table caption {
+    color: black;
+}
+
+thead {
+    /* align-items: center; */
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px red;
+}

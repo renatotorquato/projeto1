@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica Integradora e Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="lista">
+        <h2>Lista de Serviços</h2>
+        <ul>
+            <li>Criação de Sites</li>
+            <li>Criaçao de Sistemas para a Internet</li>
+            <li>Criação de Soluções Mobile</li>
+        </ul>
+    </div>
+    <div id="tabela">
+        <table border="1" cellspacing="2" heigth="150" widh="300">
+            <caption>Nossos Clientes</caption>
+            <thead>
+                <tr>
+                    <th>Empresa</th><th>País</th><th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HLJS</td><td>Alemanha</td><td>Akhein,TE</td>
+                </tr>
+                <tr>
+                    <td>Umbrela</td><td colspan="2">EUA</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Nome</td><td colspan="2">Endereço</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <div class="contato-form">
+        <form name="form_cliente" action="" method="get" width="200">
+           <legend>Nome</legend>
+            <input id="nome" type="text" name="nome" max="100" placeholder="Seu Nome"><br>
+            <legend>Email</legend>
+            <input id="email" type="email" name="email" placeholder="Seu Email"><br>
+            <legend>Sexo</legend>
+            <select name="Sexo" id="Sexo">
+                <option selected value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Nao_declarado">Prefiro não informar</option>
+            </select><br>
+            <legend>Observação</legend>
+            <textarea id="obs" name="obs" id="" cols="30" rows="3"></textarea>
+            <br>
+            <button id="Enviar" type="submit" value="Enviar" name="Enviar">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
